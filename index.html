@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lion Wizard Tech - Brave solutions for complex problems</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <div class="logo-icon">🦁⚡</div>
+            <div class="logo-text">
+              <span class="lion">LION</span>
+              <span class="wizard">WIZARD</span>
+              <span class="tech">TECH</span>
+            </div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#waitlist" class="cta-button">Join Waitlist</a></li>
+          </ul>
+          <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            <span class="highlight">Brave</span> solutions for
+            <span class="highlight">complex</span> problems
+          </h1>
+          <p class="hero-subtitle">
+            We build tools that tame complexity, turning confusing challenges
+            into simple solutions.
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="primary-button">
+              <i class="fas fa-wand-magic-sparkles"></i>
+              See Our Magic
+            </a>
+            <a href="#about" class="secondary-button">
+              <i class="fas fa-lion"></i>
+              Meet the Wizard
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="orbital-system">
+            <div class="central-orb">
+              <span>🦁</span>
+            </div>
+            <div class="orbit orbit-1">
+              <div class="satellite">⚡</div>
+            </div>
+            <div class="orbit orbit-2">
+              <div class="satellite">🔮</div>
+            </div>
+            <div class="orbit orbit-3">
+              <div class="satellite">💻</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section id="projects" class="featured-project">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Project</h2>
+          <p>Our first spell against complexity</p>
+        </div>
+        <div class="project-card">
+          <div class="project-badge">NEW</div>
+          <div class="project-content">
+            <div class="project-icon">📜➡️✨</div>
+            <h3>T&CSimplify</h3>
+            <p class="project-tagline">
+              Understand any Terms & Conditions in
+              <span class="highlight">plain English</span>
+            </p>
+            <p class="project-description">
+              Tired of blindly accepting legal documents? We transform dense
+              legalese into clear, actionable summaries so you know exactly what
+              you're signing.
+            </p>
+
+            <div class="project-demo">
+              <div class="demo-before">
+                <h4><i class="fas fa-times-circle"></i> Before</h4>
+                <div class="demo-content">
+                  <p>
+                    "The party of the first part hereby indemnifies and holds
+                    harmless the party of the second part..."
+                  </p>
+                  <p>
+                    "User grants perpetual, irrevocable license to content
+                    submitted..."
+                  </p>
+                  <p>
+                    "Arbitration clause requires waiver of class action
+                    rights..."
+                  </p>
+                </div>
+              </div>
+              <div class="demo-arrow">→</div>
+              <div class="demo-after">
+                <h4><i class="fas fa-check-circle"></i> After</h4>
+                <div class="demo-content">
+                  <p>
+                    <i class="fas fa-check green"></i>
+                    <strong>You own your data</strong>
+                  </p>
+                  <p>
+                    <i class="fas fa-exclamation-triangle yellow"></i>
+                    <strong>Auto-renews monthly</strong> - cancel anytime
+                  </p>
+                  <p>
+                    <i class="fas fa-times red"></i>
+                    <strong>Can share data</strong> with 3rd parties
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://tcsimplify.lionwizardtech.com"
+              target="_blank"
+              class="project-button"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Visit T&CSimplify
+            </a>
+            <p class="project-note">
+              <i class="fas fa-lock"></i> Currently in beta - join waitlist for
+              early access
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Waitlist Section -->
+    <section id="waitlist" class="waitlist">
+      <div class="container">
+        <div class="waitlist-card">
+          <div class="waitlist-header">
+            <h2><i class="fas fa-scroll"></i> Join the First 100 Wizards</h2>
+            <p>Get free lifetime access to T&CSimplify as an early supporter</p>
+          </div>
+
+          <form id="waitlist-form" class="waitlist-form">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Your Name</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email"
+                ><i class="fas fa-envelope"></i> Email Address</label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="your.email@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="service">
+                <i class="fas fa-question-circle"></i> What service's T&Cs worry
+                you most?
+              </label>
+              <input
+                type="text"
+                id="service"
+                placeholder="e.g., Instagram, Netflix, Bank App..."
+              />
+            </div>
+
+            <div class="form-checkbox">
+              <input type="checkbox" id="updates" checked />
+              <label for="updates">
+                Send me occasional updates about Lion Wizard Tech projects
+              </label>
+            </div>
+
+            <button type="submit" class="submit-button">
+              <i class="fas fa-hat-wizard"></i>
+              Join the Waitlist
+            </button>
+
+            <p class="privacy-note">
+              <i class="fas fa-shield-alt"></i> No spam. Unsubscribe anytime. We
+              respect your privacy.
+            </p>
+          </form>
+
+          <div
+            id="thank-you-message"
+            class="thank-you-message"
+            style="display: none"
+          >
+            <div class="success-icon">✨</div>
+            <h3>Welcome to the Wizard's Circle!</h3>
+            <p>
+              Check your email for confirmation. You'll hear from us soon with
+              early access details.
+            </p>
+            <p class="bonus-offer">
+              <strong>Early Bird Bonus:</strong> Reply to our email with a T&C
+              link and get a <em>personalized summary</em> within 24 hours!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>Why Lion Wizard Tech?</h2>
+          <p>Our philosophy in three parts</p>
+        </div>
+
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">🦁</div>
+            <h3>Lion's Courage</h3>
+            <p>
+              We tackle problems others avoid. Complex, intimidating, or
+              tedious—we face them head-on.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">🔮</div>
+            <h3>Wizard's Wisdom</h3>
+            <p>
+              We transform complexity into clarity. Our tools feel like magic
+              but are built on solid technology.
+            </p>
+          </div>
+
+          <div class="value-card">
+            <div class="value-icon">💻</div>
+            <h3>Tech Precision</h3>
+            <p>
+              We build with care, precision, and user experience at the
+              forefront. Every detail matters.
+            </p>
+          </div>
+        </div>
+
+        <div class="mission-statement">
+          <blockquote>
+            "Technology should solve problems, not create them. We're here to
+            build tools that
+            <span class="highlight">empower</span> rather than confuse, that
+            <span class="highlight">simplify</span> rather than complicate."
+            <footer>— The Lion Wizard</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <div class="logo">
+              <div class="logo-icon">🦁⚡</div>
+              <div class="logo-text">
+                <span class="lion">LION</span>
+                <span class="wizard">WIZARD</span>
+                <span class="tech">TECH</span>
+              </div>
+            </div>
+            <p class="footer-tagline">Making the complicated understandable.</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="link-group">
+              <h4>Project</h4>
+              <a href="https://tcsimplify.lionwizardtech.com" target="_blank"
+                >T&CSimplify</a
+              >
+              <a href="#waitlist">Join Waitlist</a>
+              <a href="#about">Our Story</a>
+            </div>
+
+            <div class="link-group">
+              <h4>Connect</h4>
+              <a href="mailto:hello@lionwizardtech.com">Email Us</a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-twitter"></i> Twitter</a
+              >
+              <a href="#" class="social-link"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; <span id="current-year">2024</span> Lion Wizard Tech. All
+            rights reserved.
+          </p>
+          <p class="footer-legal">
+            <a href="#">Privacy</a> • <a href="#">Terms</a> •
+            <a href="#">Disclaimer</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
